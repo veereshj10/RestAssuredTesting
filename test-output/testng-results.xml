@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-08T19:55:22 IST" name="MasterTestSuite" finished-at="2021-11-08T19:55:22 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MasterTestSuite -->
+  <suite started-at="2021-11-08T19:55:22 IST" name="functinal testig" finished-at="2021-11-08T19:55:22 IST" duration-ms="14">
+    <groups>
+    </groups>
+    <test started-at="2021-11-08T19:55:22 IST" name="Funtiontest" finished-at="2021-11-08T19:55:22 IST" duration-ms="14">
+      <class name="BatchTesting.paymentsretuns">
+        <test-method signature="paymentretus()[pri:0, instance:BatchTesting.paymentsretuns@70e9c95d]" started-at="2021-11-08T19:55:22 IST" name="paymentretus" finished-at="2021-11-08T19:55:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentretus -->
+      </class> <!-- BatchTesting.paymentsretuns -->
+      <class name="BatchTesting.paymenttest">
+        <test-method signature="paymentindolle()[pri:0, instance:BatchTesting.paymenttest@6fdbe764]" started-at="2021-11-08T19:55:22 IST" name="paymentindolle" finished-at="2021-11-08T19:55:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentindolle -->
+        <test-method signature="paymentinrupee()[pri:0, instance:BatchTesting.paymenttest@6fdbe764]" started-at="2021-11-08T19:55:22 IST" name="paymentinrupee" finished-at="2021-11-08T19:55:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinrupee -->
+      </class> <!-- BatchTesting.paymenttest -->
+    </test> <!-- Funtiontest -->
+  </suite> <!-- functinal testig -->
+  <suite started-at="2021-11-08T19:55:21 IST" name="sanity" finished-at="2021-11-08T19:55:21 IST" duration-ms="169">
+    <groups>
+    </groups>
+    <test started-at="2021-11-08T19:55:21 IST" name="sanitytests" finished-at="2021-11-08T19:55:21 IST" duration-ms="169">
+      <class name="BatchTesting.LoginTest">
+        <test-method signature="loginbyFb()[pri:0, instance:BatchTesting.LoginTest@18d87d80]" started-at="2021-11-08T19:55:21 IST" name="loginbyFb" finished-at="2021-11-08T19:55:21 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbyFb -->
+        <test-method signature="loginbyTwitter()[pri:0, instance:BatchTesting.LoginTest@18d87d80]" started-at="2021-11-08T19:55:21 IST" name="loginbyTwitter" finished-at="2021-11-08T19:55:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbyTwitter -->
+        <test-method signature="loginbyemail()[pri:0, instance:BatchTesting.LoginTest@18d87d80]" started-at="2021-11-08T19:55:21 IST" name="loginbyemail" finished-at="2021-11-08T19:55:21 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginbyemail -->
+      </class> <!-- BatchTesting.LoginTest -->
+      <class name="BatchTesting.singupmwthod">
+        <test-method signature="sighupbyemail()[pri:0, instance:BatchTesting.singupmwthod@593aaf41]" started-at="2021-11-08T19:55:21 IST" name="sighupbyemail" finished-at="2021-11-08T19:55:21 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sighupbyemail -->
+        <test-method signature="sighupfb()[pri:0, instance:BatchTesting.singupmwthod@593aaf41]" started-at="2021-11-08T19:55:21 IST" name="sighupfb" finished-at="2021-11-08T19:55:21 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sighupfb -->
+        <test-method signature="sighuptwitter()[pri:0, instance:BatchTesting.singupmwthod@593aaf41]" started-at="2021-11-08T19:55:21 IST" name="sighuptwitter" finished-at="2021-11-08T19:55:21 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sighuptwitter -->
+      </class> <!-- BatchTesting.singupmwthod -->
+    </test> <!-- sanitytests -->
+  </suite> <!-- sanity -->
+</testng-results>
